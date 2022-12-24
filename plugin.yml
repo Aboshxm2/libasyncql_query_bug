@@ -1,0 +1,14 @@
+name: libasyncql_query_bug
+version: 1.0.0
+author: Aboshxm2
+api: 4.0.0
+main: Aboshxm2\libasyncql_query_bug\Main
+src-namespace-prefix: Aboshxm2\libasyncql_query_bug
+
+commands:
+  test:
+    permission: libasyncql_query_bug.test
+
+permissions:
+  libasyncql_query_bug.test:
+    default: op
